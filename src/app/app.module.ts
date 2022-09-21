@@ -8,6 +8,7 @@ import { CreatedAuto1Component } from './created-auto1/created-auto1.component';
 import { CreatedAuto2Component } from './created-auto2/created-auto2.component';
 import { Test4Component } from './user/components/test4/test4.component';
 import { Test5Component } from './user/components/test5/test5.component';
+import { Test6Component } from './test6/test6.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Test5Component } from './user/components/test5/test5.component';
     CreatedAuto1Component,
     CreatedAuto2Component,
     Test4Component,
-    Test5Component
+    Test5Component,
+    Test6Component
   ],
   imports: [
     BrowserModule,
